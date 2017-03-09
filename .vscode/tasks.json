@@ -4,6 +4,6 @@
     "version": "0.1.0",
     "command": "browser-sync",
     "isShellCommand": true,
-    "args": ["start", "--server", "--files \"**/*.*\""],
+    "args": ["start", "--server", "--files \"**/*\""],
     "showOutput": "always"
 }

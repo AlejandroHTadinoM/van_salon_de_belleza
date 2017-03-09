@@ -11,7 +11,7 @@
   margin:0;	
   }
 body {
-  background-image: url(../img/footer_lodyas.png);
+  background-image: url(../img/wov.png);
   background-repeat: repeat;
   font-size:100%;
   font-family:"Open Sans",Arial,sans-serif;
@@ -71,7 +71,7 @@ form {line-height:1.4em;}
 nav {
   display:block;
   width:100%;
-  background:#005fbe;
+  background:#938468;
 }
 .line::after, nav::after, .center::after, .box::after, .margin::after {clear: both;}
 .line::before, .line::after, nav::before, nav::after, .center::before, .center::after, .box::before, .box::after, .margin::before, .margin::after {
@@ -98,7 +98,7 @@ nav {
   min-width:100%;
   padding:0.625em;
 }
-.top-nav li a:hover, .aside-nav li a:hover {background:#000;}
+.top-nav li a:hover, .aside-nav li a:hover {background:#E59318;}
 .top-nav li ul {display:none;}
 .top-nav li ul li {
   float:none;
@@ -486,4 +486,14 @@ nav {
   float:none;
   margin:0 auto;
   display:block;
+}
+
+/****************************************
+*
+*   Tema
+*
+****************************************/
+
+.banner {
+  background-color: #000;
 }
