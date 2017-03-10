@@ -11,7 +11,7 @@
   margin:0;	
   }
 body {
-  background-image: url(../img/wov.png);
+  background-image: url("../img/wov.png");
   background-repeat: repeat;
   font-size:100%;
   font-family:"Open Sans",Arial,sans-serif;
