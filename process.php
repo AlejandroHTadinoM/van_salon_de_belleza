@@ -13,7 +13,7 @@ $mail->CharSet = 'UTF-8';
 $mail->SMTPDebug = 3;
 $mail->setFrom('noreply@dirnovo.com', 'Clicnovo Mailer');
 $mail->Sender='novotecn@gator3249.hostgator.com';
-$mail->addAddress('albertomagnon@gmail.com'); // Esta línea, corresponde al mail del cliente
+$mail->addAddress('vansalondebelleza@gmail.com'); // Esta línea, corresponde al mail del cliente
 $mail->addBCC('mario@clicnovo.com');
 $mail->addReplyTo($email, $nombre);
 $mail->Subject = "Formulario: " . $asunto;
