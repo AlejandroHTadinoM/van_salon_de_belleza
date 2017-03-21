@@ -11,7 +11,7 @@
   margin:0;	
   }
 body {
-  background-image: url("../img/wov.png");
+  background-image: url("../img/ep-bg.png");
   background-repeat: repeat;
   font-size:100%;
   font-family:"Open Sans",Arial,sans-serif;
@@ -71,7 +71,7 @@ form {line-height:1.4em;}
 nav {
   display:block;
   width:100%;
-  background:#938468;
+  background:#e67e22;
 }
 .line::after, nav::after, .center::after, .box::after, .margin::after {clear: both;}
 .line::before, .line::after, nav::before, nav::after, .center::before, .center::after, .box::before, .box::after, .margin::before, .margin::after {
@@ -134,10 +134,10 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   font-size:0.7em;
   margin:0 0.625em;
 }
-.top-nav .active-item a {background:none repeat scroll 0 0 #000;}
+.top-nav .active-item a {background:none repeat scroll 0 0 #212121;}
 .aside-nav > ul > li.active-item > a:link, .aside-nav > ul > li.active-item > a:visited {
   background:none repeat scroll 0 0 #999;
-  color:#fff;
+  color:#e67e22;
 } 
 @media screen and (min-width:769px) {
   .aside-nav .count-number {
@@ -495,5 +495,5 @@ nav {
 ****************************************/
 
 .banner {
-  background-color: #000;
+  background: radial-gradient(circle, #212121, #e65100, #212121)
 }
